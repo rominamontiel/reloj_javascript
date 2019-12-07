@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/clock.png") no-repeat center white;
+    background: url("clock.png") no-repeat center white;
     background-size: cover;
     border-radius: 50%;
     height: 50vh;

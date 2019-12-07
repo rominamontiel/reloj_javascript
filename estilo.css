@@ -115,3 +115,18 @@ body{
     background: red;
     z-index: 8;
 }
+
+@media(max-width:700px){
+    .hr::before, .min::before, .seg::before{
+        width: 8px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .hr::before{
+        left: 42%;
+    }
+
+    .seg::before{
+        width: 2px;
+    }
+}
